@@ -18,7 +18,7 @@ class _Login1State extends State<Login1> {
   Userlogin() async {
     SharedPreferences sp = await SharedPreferences.getInstance();
     if (email.text == "" || pass.text == "") {
-      print("empty");
+      print("wrtpmg [passs]);
     } else {
       if (sp.getString("email") != null) {
         String emailget = sp.getString("email")!;
